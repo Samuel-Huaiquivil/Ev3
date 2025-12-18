@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS companias (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL,
+    eslogan VARCHAR(255),
+    servicio VARCHAR(255)
+) ENGINE=InnoDB;
+
